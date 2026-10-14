@@ -1,0 +1,20 @@
+## Interface: 120000, 120001, 120005, 120007, 120100, 120105, 16001
+## Title: |cff0cd29fEllesmereUI|r Loot Tracker
+## Category: |cff0cd29fEllesmere|rUI
+## Group: EllesmereUI
+## Notes: Loot feed with Auctionator prices, a farming session with gold per hour, and a loot history.
+## Author: Dworak
+## Version: 1.0.0
+## Dependencies: EllesmereUI, EllesmereUIDworak
+## OptionalDeps: Auctionator
+## SavedVariables: EllesmereUILootTrackerDB
+## IconTexture: Interface\AddOns\EllesmereUI\media\eg-logo.tga
+
+# Settings store, feature kit, import from the Forever Essentials Loot Feed
+EllesmereUILootTracker.lua
+
+# Feed, Farming Session, Loot History, Ignored Items, minimap icon
+EllesmereUILootTracker_Core.lua
+
+# Dworak > Loot Tracker pages (Loot Feed, Farming Session, Loot History)
+EllesmereUILootTracker_Options.lua
